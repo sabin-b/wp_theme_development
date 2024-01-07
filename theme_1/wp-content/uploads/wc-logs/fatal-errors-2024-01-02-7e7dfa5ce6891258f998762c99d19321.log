@@ -1,0 +1,17 @@
+2024-01-02T08:19:20+00:00 CRITICAL Uncaught Error: Undefined constant "numberofrows" in D:\learnings\wordpress_developement\laragon\www\wp_theme_development\theme_1\wp-content\themes\firsttheme\functions.php:39
+Stack trace:
+#0 D:\learnings\wordpress_developement\laragon\www\wp_theme_development\theme_1\wp-includes\class-wp-hook.php(324): first_theme_config('')
+#1 D:\learnings\wordpress_developement\laragon\www\wp_theme_development\theme_1\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 D:\learnings\wordpress_developement\laragon\www\wp_theme_development\theme_1\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\learnings\wordpress_developement\laragon\www\wp_theme_development\theme_1\wp-settings.php(621): do_action('after_setup_the...')
+#4 D:\learnings\wordpress_developement\laragon\www\wp_theme_development\theme_1\wp-config.php(97): require_once('D:\\learnings\\wo...')
+#5 D:\learnings\wordpress_developement\laragon\www\wp_theme_development\theme_1\wp-load.php(50): require_once('D:\\learnings\\wo...')
+#6 D:\learnings\wordpress_developement\laragon\www\wp_theme_development\theme_1\wp-blog-header.php(13): require_once('D:\\learnings\\wo...')
+#7 D:\learnings\wordpress_developement\laragon\www\wp_theme_development\theme_1\index.php(17): require('D:\\learnings\\wo...')
+#8 {main}
+  thrown in D:\learnings\wordpress_developement\laragon\www\wp_theme_development\theme_1\wp-content\themes\firsttheme\functions.php on line 39
+
+2024-01-02T08:20:08+00:00 CRITICAL syntax error, unexpected token "=" in D:\learnings\wordpress_developement\laragon\www\wp_theme_development\theme_1\wp-content\themes\firsttheme\functions.php on line 39
+
+2024-01-02T08:54:20+00:00 CRITICAL syntax error, unexpected token "}" in D:\learnings\wordpress_developement\laragon\www\wp_theme_development\theme_1\wp-content\themes\firsttheme\functions.php on line 89
+

@@ -1,0 +1,37 @@
+.menu {
+  display: flex;
+  column-gap: 40px;
+}
+.menu li {
+  text-transform: capitalize;
+  font-size: 17px;
+  font-weight: 600;
+}
+header a.cart {
+  display: inline-block;
+  margin-left: 20px;
+  text-transform: capitalize;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.size-auto,
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ! woocommerce  { */
+.post-type-archive-product .content-box main,
+.product-template-default.single.single-product main {
+  width: 100% !important;
+}
+
+/* ! woocommerce  } */
+
+.custom .products.columns-3 {
+  columns: auto !important;
+}
